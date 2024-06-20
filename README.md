@@ -4,7 +4,7 @@ the users to stimulate different scheduling algorithms and
 analyze the performance of the particular selected algorithm.
 Also, it suggests the optimal algorithm for a particular set of
 processes.
-
+Here I made 2 branches namely main and master. Main contains only README file and the next branch "master" contains all the codes.
 
 How to run the project:
 
