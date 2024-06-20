@@ -8,6 +8,22 @@ processes.
 
 How to run the project:
 
+To clone my repository and work on it locally, you can use the following steps:
+
+1) Open your terminal or command prompt.
+
+2) Navigate to the directory where you want to clone the repository.
+
+3) Run the following command to clone the repository: 
+git clone https://github.com/ravitejajaligama/CPU_SCHEDULER.git
+	
+4) Navigate into the cloned repository:  cd CPU_SCHEDULER
+	
+5) Open the project in your preferred code editor:
+     For example, if you're using Visual Studio Code, you can run:  code .
+
+Now once all the files are displayed in the IDE follow the below steps:
+
 Step 1: Install Node.js
 If you haven't already, download and install Node.js for your
 operating system.
