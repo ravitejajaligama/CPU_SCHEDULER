@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPU Scheduler Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CPU Scheduler Simulator</h1>
+        <form id="cpuSchedulerForm">
+            <div class="input-container">
+                <label for="processCount">Number of Processes:</label>
+                <input type="number" id="processCount" name="processCount">
+                <button type="button" id="generateProcessesBtn">Generate</button>
+            </div>
+            <div id="processDetails" class="process-details hidden">
+                
+            </div>
+            <div class="input-container">
+                <label for="algorithm">Select Algorithm:</label>
+                <select id="algorithm" name="algorithm">
+                    <option value="1">First-Come, First-Served (FCFS)</option>
+                    <option value="2">Shortest Job First (SJF)</option>
+                    <option value="3">Priority Scheduling</option>
+                    <option value="4">Round Robin</option>
+                </select>
+            </div>
+            <div id="preemptiveInput" class="input-container hidden">
+                <label for="preemptive">Preemptive?</label>
+                <input type="checkbox" id="preemptive" name="preemptive">
+            </div>
+            <div id="quantumInput" class="input-container hidden">
+                <label for="quantum">Time Quantum:</label>
+                <input type="number" id="quantum" name="quantum">
+            </div>
+            <button type="button" id="simulateBtn">Simulate</button>
+        </form>
+        <div id="results" class="hidden">
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
